@@ -18,14 +18,14 @@ public class Lexographical {
         System.out.print(ans+" ");
         if(ans==0)
         {
-            for(int i=1;i<10;i++)
+            for(int i=0;i<10;i++)
             {
                 sol(n,ans*10+i);
             }
         }
         else
         {
-            for(int i=0;i<10;i++)
+            for(int i=1;i<10;i++)
             {
                 sol(n,ans*10+i);
             }
