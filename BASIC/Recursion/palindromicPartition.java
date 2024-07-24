@@ -20,7 +20,7 @@ public class palindromicPartition {
             if(isPalindrome(cur)==true)
             {
 //				System.out.println(cur);
-                sol(rem,ans+cur);
+                sol(rem,ans+cur+" ");
 
             }
 
