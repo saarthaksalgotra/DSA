@@ -21,9 +21,7 @@ public class palindromicPartition {
             {
 //				System.out.println(cur);
                 sol(rem,ans+cur+" ");
-
             }
-
         }
     }
     public static boolean isPalindrome(String str)
