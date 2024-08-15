@@ -1,10 +1,8 @@
-package reappear.PA;
+package BASIC.Backtracking;
 
-import java.util.Scanner;
-
-public class RatInMaze {
+public class RatchazesCheese {
     public static void main(String[] args) {
-       // Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         int [][] arr ={{0,0,1},{0,0,0},{0,0,1},{1,0,0}};
         int ans = sol(arr,0,0,arr.length-1,arr[0].length-1,"", new boolean[arr.length][arr[0].length]);
         System.out.print(ans);

@@ -22,7 +22,6 @@ public class WallDRY {
 
     public  static int minMinutes(int[] arr , int k)
     {
-
         int time = 0;
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder()) ;
 
