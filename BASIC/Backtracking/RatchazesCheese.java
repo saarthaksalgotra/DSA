@@ -3,7 +3,7 @@ package BASIC.Backtracking;
 public class RatchazesCheese {
     public static void main(String[] args) {
         // Scanner sc = new Scanner(System.in);
-        int [][] arr ={{0,0,1},{0,0,0},{0,0,1},{1,0,0}};
+        int [][] arr ={{0,0,1},{0,0,0},{0,0,1},{1,0,1}};
         int ans = sol(arr,0,0,arr.length-1,arr[0].length-1,"", new boolean[arr.length][arr[0].length]);
         System.out.print(ans);
     }
@@ -16,7 +16,7 @@ public class RatchazesCheese {
             return 1;
         }
 
-        if(cr<0 || cc<0 ||cr>er || cc>ec || arr[cr][cc]==1 || visited[cr][cc]==true)
+        if(cr<0 || cc<0 ||cr>er || cc>ec ||arr[er][ec]==1 ||arr[cr][cc]==1 || visited[cr][cc]==true)
         {
             return 0;
         }
