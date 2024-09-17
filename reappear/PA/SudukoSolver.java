@@ -31,10 +31,10 @@ public class SudukoSolver {
             return;
         }
 
-        if(cr>8)
-        {
-            return;
-        }
+//        if(cr>8)
+//        {
+//            return;
+//        }
 
         if(arr[cr][cc]==0)
         {

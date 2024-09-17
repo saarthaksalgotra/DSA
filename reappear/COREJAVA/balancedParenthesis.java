@@ -25,7 +25,7 @@ public class balancedParenthesis {
         {
             char ch = str.charAt(i);
 
-            if(ch=='(')
+            if(ch=='(' )
             {
                 st.push('(');
             } else if (ch==')' && st.empty()) {

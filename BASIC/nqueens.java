@@ -23,7 +23,8 @@ public class nqueens {
 
         if(cc>=ec)
         {
-            return sol(cr+1,0,er,ec,qpsf,tq,visited);
+            sol(cr+1,0,er,ec,qpsf,tq,visited);
+            return 0;
         }
 
         if(cr>=er || (er-cr<tq-qpsf))
