@@ -17,5 +17,8 @@ public class Static {
         e1.printInfo();
         System.out.println("Employee at "+e1.University);
 
+        // static mtlb VIP pehle preference static ko milegi
+
+        // Static preference order --->> static variable --->> static block {} --->> static method/function
     }
 }
